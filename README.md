@@ -84,10 +84,11 @@ After pushing to `main`, the site deploys automatically via GitHub Actions.
 
 ### One-time GitHub setup
 
-1. Go to your repo **Settings** → **Pages**
-2. Under **Build and deployment**, set **Source** to **GitHub Actions**
-3. Push to `main` — the workflow builds and deploys the site
-4. Wait 2–3 minutes, then open the URL above
+1. Push to `main` — the workflow builds and deploys to the `gh-pages` branch
+2. Go to your repo **Settings** → **Pages**
+3. Under **Build and deployment**, set **Source** to **Deploy from a branch**
+4. Select branch: **`gh-pages`** and folder: **`/ (root)`**
+5. Click **Save**, wait 2–3 minutes, then open the URL above
 
 ## Deploy to Vercel (alternative)
 
