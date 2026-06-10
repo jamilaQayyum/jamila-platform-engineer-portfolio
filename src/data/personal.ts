@@ -1,3 +1,5 @@
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export const personalInfo = {
   name: "Jamila Qayyum",
   title: "DevOps Engineer | Cloud Solutions Architect | Platform Engineer",
@@ -7,7 +9,7 @@ export const personalInfo = {
   phone: "034-774-04494",
   github: "https://github.com/jamilaqayyum",
   linkedin: "https://linkedin.com/in/jamilaqayyum",
-  resume: "/Jamila-Platform-Devops.pdf",
+  resume: `${basePath}/Jamila-Platform-Devops.pdf`,
   headline: "Building Scalable, Secure & Automated Cloud Infrastructure",
   subheadline:
     "DevOps Engineer and Cloud Solutions Architect with 4+ years of experience building highly available, resilient platforms on AWS and GCP — streamlining CI/CD, hardening security, and delivering measurable impact across Web3, AI/ML, and microservices.",
