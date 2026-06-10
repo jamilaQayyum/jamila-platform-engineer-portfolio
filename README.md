@@ -76,9 +76,22 @@ The contact form currently shows a success message on submit. To enable real ema
 - [Formspree](https://formspree.io/)
 - [SendGrid](https://sendgrid.com/)
 
-## Deploy to Vercel
+## Live Site (GitHub Pages)
 
-The easiest way to deploy is using [Vercel](https://vercel.com):
+After pushing to `main`, the site deploys automatically via GitHub Actions.
+
+**Live URL:** https://jamilaqayyum.github.io/jamila-platform-engineer-portfolio/
+
+### One-time GitHub setup
+
+1. Go to your repo **Settings** → **Pages**
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**
+3. Push to `main` — the workflow builds and deploys the site
+4. Wait 2–3 minutes, then open the URL above
+
+## Deploy to Vercel (alternative)
+
+You can also deploy using [Vercel](https://vercel.com):
 
 ### Option 1: Vercel CLI
 
